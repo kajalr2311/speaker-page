@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.containar {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1545454675-3531b543be5d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+
+.containar .nav1 i {
+    display: inline-block;
+    width: 50;
+    position: absolute;
+    left: 4%;
+    top: 4%;
+    border: 1px solid rgb(235, 230, 230);
+    background-color: black;
+    color: white;
+    padding: 3px 3px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.containar .nav1 i:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+span {
+    color: bisque;
+}
+
+.containar h1 {
+    height: 50%;
+    width: 220px;
+    position: absolute;
+    top: 1%;
+    left: 47%;
+    font-size: 20px;
+}
+
+.containar .nav2 {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    position: absolute;
+    left: 50%;
+    font-size: 40px;
+    color: white;
+    padding: 5px 30px;
+}
+
+.containar .nav2 button {
+    padding: 10px 10px;
+    background-color: rgb(20, 20, 20);
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 20px;
+    border: 1px solid white;
+
+}
+
+.containar .nav2 button:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.containar h2 {
+    margin: 7% 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 70px;
+
+}
+
+.containar button i {
+    display: inline-block;
+    margin-right: 5px;
+    color: rgb(15, 15, 15);
+    transform: scale(1);
+    transform-origin: left;
+    transition: 0.25s all;
+}
+
+.containar button:hover.arrow {
+    transform: scale(1);
+    width: 20px;
+}
+
+.containar button {
+    margin-left: 40px;
+    margin-bottom: -80%;
+    background-color: white;
+    font-size: 18px;
+    padding: 15px 20px;
+    transform: scale(1);
+    transition: 0.25s all;
+    transform-origin: left;
+
+
+}
+
+.containar button :hover {
+    transform: scale(1.1);
+}
+
+.containar h3 {
+    font-size: 220px;
+    color: white;
+    position: absolute;
+    bottom: -1px;
+    left: 220px;
+
+}
